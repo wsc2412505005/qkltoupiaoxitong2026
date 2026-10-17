@@ -1,0 +1,16 @@
+{
+  "name": "qkltoupiaoxitong2026-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "区块链投票系统 - 根目录命令入口",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "lint": "npm --prefix frontend run lint",
+    "test": "npm --prefix blockchain run test",
+    "install:all": "npm --prefix frontend install && npm --prefix blockchain install",
+    "chain": "npm --prefix blockchain run node",
+    "compile": "npm --prefix blockchain run compile",
+    "deploy": "npm --prefix blockchain run deploy"
+  }
+}
